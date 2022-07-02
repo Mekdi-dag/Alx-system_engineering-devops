@@ -1,2 +1,2 @@
 #!/bin/bash
-DIRS=$(find . -type d)
+dirCount() { echo $(find . -type d | wc -l); }
