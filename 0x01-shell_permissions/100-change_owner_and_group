@@ -1,3 +1,3 @@
 #!/bin/bash
-chown admin vincent
-chgrp -R staff
+chown -R vincent 100-change_owner_and_group
+chgrp -R staff 100-change_owner_and_group
